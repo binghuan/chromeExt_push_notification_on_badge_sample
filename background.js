@@ -20,7 +20,7 @@ function checkMessage() {
             messages += "Message#" + i + " = " + messageObj[i].txt + "<br>";
         }
 
-        if(messageObj.length > 1) {
+        if(messageObj.length > 0) {
             chrome.browserAction.setBadgeText({text: messageObj.length.toString()});
         } else {
             chrome.browserAction.setBadgeText({text:''});
