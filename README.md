@@ -1,6 +1,6 @@
-chromeExt BH ClockBadge
-=======================
-
-<h3>Show me current time</h3>
-
-<p>User can install the chrome extension to show current time on chrome's action bar</p>
+<h3>Chrome Extension to demo how to show unread count badge on Icon</h3>
+<br>
+<p>
+	change the messages.txt for messages.
+	and host web server in this folder.
+</p>
