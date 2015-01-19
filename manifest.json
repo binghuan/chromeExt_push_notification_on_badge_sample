@@ -1,0 +1,25 @@
+{
+  "name": "Notification Badge Sample",
+  "version": "1.0.0",
+  "description": "Show me the notification",
+  "icons": {
+    "16": "Icon-16.png",
+    "48": "Icon-48.png",
+		"64": "Icon-64.png",
+		"128": "Icon-128.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "background",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+	  "default_icon": "Icon.png",
+    "default_title": "Show me the time",
+    "default_popup": "popup.html"        // optional
+  },
+  "manifest_version": 2
+}
